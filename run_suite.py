@@ -22,3 +22,4 @@ with open(ihrm_report_path, 'wb') as f:
     runner.run(suite)
 
 print("更改输出语句，然后查看是否会自动触发轮巡构建，最长不会超过1分钟")
+print("2分钟变动")
